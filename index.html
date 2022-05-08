@@ -79,52 +79,6 @@
       </div>
     </section>
 
-    <!-- <section class="section container__skill">
-      <h2>MY SKILLS</h2>
-      <div class="container__skill-graphics">
-        <div class="container__skill-item">
-          <h3 class="container__skills_skill-name">HTML</h3>
-          <div class="container__skills_skill-knowledge"></div>
-          <p class="container__skills_skill-percentage">80%</p>
-        </div>
-        <div class="container__skill-item">
-          <h3 class="container__skills_skill-name">CSS, Sass</h3>
-          <div class="container__skills_skill-knowledge"></div>
-          <p class="container__skills_skill-percentage">80%</p>
-        </div>
-        <div class="container__skill-item">
-          <h3 class="container__skills_skill-name">JavaScript</h3>
-          <div class="container__skills_skill-knowledge"></div>
-          <p class="container__skills_skill-percentage">70%</p>
-        </div>
-        <div class="container__skill-item">
-          <h3 class="container__skills_skill-name">React</h3>
-          <div class="container__skills_skill-knowledge"></div>
-          <p class="container__skills_skill-percentage">60%</p>
-        </div>
-        <div class="container__skill-item">
-          <h3 class="container__skills_skill-name">jQuery</h3>
-          <div class="container__skills_skill-knowledge"></div>
-          <p class="container__skills_skill-percentage">70%</p>
-        </div>
-        <div class="container__skill-item">
-          <h3 class="container__skills_skill-name">PHP</h3>
-          <div class="container__skills_skill-knowledge"></div>
-          <p class="container__skills_skill-percentage">60%</p>
-        </div>
-        <div class="container__skill-item">
-          <h3 class="container__skills_skill-name">Laravel</h3>
-          <div class="container__skills_skill-knowledge"></div>
-          <p class="container__skills_skill-percentage">60%</p>
-        </div>
-        <div class="container__skill-item">
-          <h3 class="container__skills_skill-name">UX</h3>
-          <div class="container__skills_skill-knowledge"></div>
-          <p class="container__skills_skill-percentage">50%</p>
-        </div>
-      </div>
-    </section> -->
-
     <section class="section container__skill">
       <h2>MY SKILLS</h2>
       <div class="container__skill-graphics">
@@ -251,45 +205,91 @@
     </section>
 
     <section class="section about">
-      <div>
-        <img
-          src="img/avatar.jpg"
-          alt="Picture of Aneta Webbie"
-          class="about__avatar"
-        />
-        <div class="about__text">
-          <p>
-            <strong>My name is Aneta Webbie</strong>. I am a full-stack
-            developer and I enjoy learning new trends.
-            <strong>
-              learning new trends. I am developing user interfaces in JavaScript
-              and React and backend for my projects in PHP and Laravel learning
-              new trends. </strong
-            >.
-          </p>
-          <p>
-            I am open to learning new technologies and enjoy working with people
-            <span>who are as passionate about we as me</span>.
-          </p>
-          <p>Get in touch and let's work together!</p>
-          <button>Contact me</button>
+        <h2>ABOUT ME</h2>
+        <div class="about__personal">
+            <div class="about__avatar">
+            </div>
+            <div class="about__text">
+              <p>
+                <strong>My name is Aneta Webbie</strong>. I am a full-stack
+                developer and I enjoy
+                <strong>
+                  learning new trends. I am developing user interfaces in JavaScript
+                  and React and backend for my projects in PHP and Laravel learning
+                  new trends. </strong
+                >.
+              </p>
+              <p>
+                I am open to learning new technologies and enjoy working with people
+                <span class="about__text-underline">who are as passionate about we as me</span>.
+              </p>
+              <p>Get in touch and let's work together!</p>
+              <div class="btn"><button class="btn_text">Contact me</button></div>
+            </div>
         </div>
-      </div>
+
     </section>
 
     <section class="section find-me">
       <h2>FIND ME HERE</h2>
-      <i class="icon icon_item1"></i>
-      <i class="icon icon_item2"></i>
-      <i class="icon icon_item3"></i>
+      <div class="find-me__icons">
+        <img src="img/twitter.svg" alt="Twitter logo" class="icon find-me__icons_item"></i>
+        <img src="img/fb.svg" alt="Facebook logo" class="icon find-me__icons_item"></i>
+        <img src="img/linkedin.svg" alt="Linkedin logo" class="icon find-me__icons_item"></i>
+      </div>
     </section>
-
-    <section class="section">
+    <section class="section contact">
       <h2>CONTACT ME</h2>
+      <div class="contact__form">
+        <form action="">
+            <div class="contact__form-input">
+                <div class="contact__form-input_item">
+                  <label for="fname">First name:</label>
+                  <input type="text">
+                </div>
+              
+                <div class="contact__form-input_item">
+                  <label for="fname">Last name</label>
+                  <input type="text">
+                </div>
+            </div>
+
+            <div class="contact__form-input">
+                <div class="contact__form-input_item">
+                  <label for="fname">Email</label>
+                  <input type="text">
+                </div>
+              
+                <div class="contact__form-input_item">
+                  <label for="fname">Phone</label>
+                  <input type="text">
+                </div>
+            </div>
+
+            <div>
+                <div class="contact__form-input_item-message">
+                  <label for="fname">My message</label>
+                  <input class="contact__form-input_item-message-section" type="text">
+                  <button>Send my message</button>
+                </div>
+            </div>
+
+        </form>
+      </div>
     </section>
 
-    <section class="greeting">
-      <h3>NICE TO MEET YOU!</h3>
+    <section class="section greeting">
+      <div class="greeting__text">
+        <hr>
+        <h2>NICE TO MEET YOU!</h2>
+        <hr>
+      </div>
+      <div class="greeting__icons">
+        <img src="img/twitter.svg" alt="Twitter logo" class="icon find-me__icons_item"></i>
+        <img src="img/fb.svg" alt="Facebook logo" class="icon find-me__icons_item"></i>
+        <img src="img/linkedin.svg" alt="Linkedin logo" class="icon find-me__icons_item"></i>
+      </div>
+      <div class="greeting__copyright"><p>Copyright @Aneta Webbie 2022</p></div>
     </section>
   </body>
 </html>
